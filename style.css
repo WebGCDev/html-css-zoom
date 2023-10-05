@@ -27,6 +27,13 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
 }
+
+/*
+******
+Header
+******
+*/
+
 header {
   display: flex;
   flex-direction: row;
@@ -36,7 +43,9 @@ header {
   top: 0px;
   left: 0px;
   right: 0px;
+  z-index: 99999;
 }
+
 header button {
   margin: 2px 5px;
 }
@@ -51,15 +60,38 @@ header button {
 
 /*
 ******
-Header
-******
-*/
-
-/*
-******
 Main
 ******
 */
+
+main {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.elenco-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  justify-content: flex-start;
+  padding-right: 20px;
+}
+
+.box-video {
+  position: relative;
+  margin: 10px 5px;
+}
+
+.box-video p {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  font-size: 11px;
+}
 
 /*
 ******
