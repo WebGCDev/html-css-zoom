@@ -98,3 +98,71 @@ main {
 Footer
 ******
 */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #202020;
+}
+
+.padding-footer {
+  padding: 15px 0px;
+}
+
+.btn-big {
+  background: none;
+  color: #fff;
+  border: 0px;
+  text-align: center;
+  margin: 0px 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn-big.with-up {
+  padding-right: 20px;
+}
+
+.btn-big i {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.btn-big span {
+  font-size: 11px;
+  display: block;
+  font-weight: normal;
+}
+
+.btn-big.with-up .fa-chevron-up {
+  font-size: 10px;
+  position: absolute;
+  right: 0px;
+  top: 15px;
+}
+
+.color-green {
+  color: #00e01e;
+}
+
+.btn-red {
+  background: #5a5a5a;
+  color: #ff0000;
+  border: 0px;
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+  font-weight: normal;
+  cursor: pointer;
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+}
